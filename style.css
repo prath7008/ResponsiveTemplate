@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    
+    background-color: #f8f8f8;
+}
+.main_heading{
+    padding: 2em 0;
+}
+
+.navbar .nav-list{
+    display: flex;
+    list-style: none;
+    padding: 2em 0;
+} 
+
+.navbar .nav-list .nav-list-item{
+    margin-left: 1em;
+
+    color: #707070;
+    font-size: 1rem;
+}
+
+.navbar .nav-list-link{
+    text-decoration: none;
+    
+}
+,
+{
+    color:black;
+    background-color: white;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+
+p{
+        font-size: 1.5rem;
+        color: #1792d2;
+        text-align: center;
+        margin: 0;
+    }   
+
+#current-page{
+    border-bottom: 1px solid #707070;
+}    
+
+
+
+/*--------------------------------------*/
+
+
+.container-main{
+    display: flex;
+    margin: 0 4rem;
+    justify-content: center;
+}
+ .container-main-primary{
+    width: 50%;
+}
+
+.container-main-secondary{
+    width: 50%;
+    padding: 4em;
+} 
+
+
+.main-img{
+    width: 100%;
+    
+}
+.container-main-link{
+    text-decoration: none;
+    
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    font-size: .65rem;
+    text-align: center;
+     margin: 0 4rem;   
+    border-radius: 4px;
+    padding: 10px;
+
+   
+}
+
+.container-footer-primary{
+    background-color: #1792d2;
+
+}
+
+.container-footer-primary h2{
+    color: white;
+    
+}
+
+@media(max-width: 680px){
+    .container{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #f8f8f8;
+    }
+
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        /* justify-content: center; */
+    }
+     .container-main-primary{
+        width: 100%;
+    }
+    
+    .container-main-secondary{
+        width: 100%;
+        padding: 0em;
+        /* border: 2px solid saddlebrown; */
+    } 
+}
